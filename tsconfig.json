@@ -1,6 +1,14 @@
 {
+
+  "compilerOptions": {
+    // ... other options ...
+    "moduleResolution": "node",
+    // ... other options ...
+  },
+
   "files": [],
   "references": [
+    { "path": "./shims-vue.d.ts" },
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ]
